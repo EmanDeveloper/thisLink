@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZSYq4ZnVDpGivRZ-uzch-1" value="USER" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="273" y="176" width="68" height="26" as="geometry">
+          <mxGeometry x="303.5" y="137" width="68" height="26" as="geometry">
             <mxRectangle x="273" y="176" width="148" height="78" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -71,7 +71,7 @@
           <mxGeometry y="26" width="143" height="127" as="geometry" />
         </mxCell>
         <mxCell id="ZSYq4ZnVDpGivRZ-uzch-27" value="vendors_jobs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="345" y="243" width="106" height="26" as="geometry">
+          <mxGeometry x="472" y="252" width="106" height="26" as="geometry">
             <mxRectangle x="345" y="243" width="198" height="558" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -79,12 +79,26 @@
           <mxGeometry y="26" width="198" height="532" as="geometry" />
         </mxCell>
         <mxCell id="ZSYq4ZnVDpGivRZ-uzch-31" value="task" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="150" y="249" width="57" height="26" as="geometry">
+          <mxGeometry x="72" y="246" width="57" height="26" as="geometry">
             <mxRectangle x="537" y="7" width="140" height="149" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZSYq4ZnVDpGivRZ-uzch-32" value="id&lt;div&gt;vendor_id (userTAB) FK&lt;/div&gt;&lt;div&gt;title&lt;/div&gt;&lt;div&gt;description&lt;/div&gt;&lt;div&gt;priority&lt;/div&gt;&lt;div&gt;status (int)&lt;/div&gt;&lt;div&gt;due_date (timestamps)&lt;/div&gt;&lt;div&gt;Timestamps&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-31">
           <mxGeometry y="26" width="140" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-35" value="qualification" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="192" y="249" width="98" height="26" as="geometry">
+            <mxRectangle x="173" y="223" width="227" height="199" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-36" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot; color=&quot;#000033&quot;&gt;&#39;staff_id&#39; (userTAB) FK&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot; color=&quot;#000033&quot;&gt;&#39;contractor_id&#39; (userTAB) FK&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot; color=&quot;#000033&quot;&gt;&#39;qualification&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot; color=&quot;#000033&quot;&gt;&#39;instituation_name&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot; color=&quot;#000033&quot;&gt;&#39;effective_date&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot; color=&quot;#000033&quot;&gt;&#39;expiry_date&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot; color=&quot;#000033&quot;&gt;&#39;document&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot; color=&quot;#000033&quot;&gt;timestamps&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-35">
+          <mxGeometry y="26" width="227" height="173" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-39" value="Notifications" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="317" y="183" width="211" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-40" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;user_id&#39;,(userTAB)FK&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;sender_id&#39;,(userTAB)FK&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;notifiable_id&#39;,(bigint)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;notifiable_type&#39;,(varchar)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;subject&#39;,(varchar)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;body&#39;,(varchar)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;child_id&#39;(int)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;read (int) def(0)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-39">
+          <mxGeometry y="26" width="211" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
