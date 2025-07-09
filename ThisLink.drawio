@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZSYq4ZnVDpGivRZ-uzch-1" value="USER" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="303.5" y="137" width="68" height="26" as="geometry">
+          <mxGeometry x="317" y="134" width="68" height="26" as="geometry">
             <mxRectangle x="273" y="176" width="148" height="78" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -71,7 +71,7 @@
           <mxGeometry y="26" width="143" height="127" as="geometry" />
         </mxCell>
         <mxCell id="ZSYq4ZnVDpGivRZ-uzch-27" value="vendors_jobs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="472" y="252" width="106" height="26" as="geometry">
+          <mxGeometry x="545" y="259" width="106" height="26" as="geometry">
             <mxRectangle x="345" y="243" width="198" height="558" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -87,18 +87,98 @@
           <mxGeometry y="26" width="140" height="123" as="geometry" />
         </mxCell>
         <mxCell id="ZSYq4ZnVDpGivRZ-uzch-35" value="qualification" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="192" y="249" width="98" height="26" as="geometry">
+          <mxGeometry x="159" y="179" width="98" height="26" as="geometry">
             <mxRectangle x="173" y="223" width="227" height="199" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZSYq4ZnVDpGivRZ-uzch-36" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot; color=&quot;#000033&quot;&gt;&#39;staff_id&#39; (userTAB) FK&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot; color=&quot;#000033&quot;&gt;&#39;contractor_id&#39; (userTAB) FK&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot; color=&quot;#000033&quot;&gt;&#39;qualification&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot; color=&quot;#000033&quot;&gt;&#39;instituation_name&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot; color=&quot;#000033&quot;&gt;&#39;effective_date&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot; color=&quot;#000033&quot;&gt;&#39;expiry_date&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot; color=&quot;#000033&quot;&gt;&#39;document&#39;,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;background-color: rgb(255, 255, 204);&quot; color=&quot;#000033&quot;&gt;timestamps&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-35">
           <mxGeometry y="26" width="227" height="173" as="geometry" />
         </mxCell>
-        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-39" value="Notifications" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="317" y="183" width="211" height="196" as="geometry" />
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-39" value="Notifications" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="359" y="213" width="100" height="26" as="geometry">
+            <mxRectangle x="346" y="120" width="211" height="203" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-40" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;user_id&#39;,(userTAB)FK&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;sender_id&#39;,(userTAB)FK&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;notifiable_id&#39;,(bigint)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;notifiable_type&#39;,(varchar)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;subject&#39;,(varchar)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;body&#39;,(varchar)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;child_id&#39;(int)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;read (int) def(0)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-39">
-          <mxGeometry y="26" width="211" height="170" as="geometry" />
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-40" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;user_id&#39;,(userTAB)FK&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;sender_id&#39;,(userTAB)FK&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;notifiable_id&#39;,(bigint)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;notifiable_type&#39;,(varchar)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;subject&#39;,(varchar)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;body&#39;,(varchar)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;&#39;child_id&#39;(int)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;read (int 1) def(0)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 204);&quot;&gt;&lt;font color=&quot;#000033&quot;&gt;Tiestamps&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-39">
+          <mxGeometry y="26" width="211" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-43" value="nfc_tag_user" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="181" y="239" width="104" height="26" as="geometry">
+            <mxRectangle x="181" y="239" width="186" height="93" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-44" value="nfc_tag_id (nfc_tag TAB) FK&lt;div&gt;user_id (userTab)FK&lt;/div&gt;&lt;div&gt;status (int 1) def(0)&lt;/div&gt;&lt;div&gt;Timestamps&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-43">
+          <mxGeometry y="26" width="186" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-47" value="nfc_tags_equipment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="72" y="319" width="143" height="26" as="geometry">
+            <mxRectangle x="332" y="324" width="140" height="121" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-48" value="nfc_tag_id (nfc_tag TAB) FK&lt;div&gt;euipment_id (equipments) FK&lt;/div&gt;&lt;div&gt;status (int 1) def(0)&lt;/div&gt;&lt;div&gt;Timestamps&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-47">
+          <mxGeometry y="26" width="140" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-51" value="nfc_tag" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="300.5" y="325" width="74" height="26" as="geometry">
+            <mxRectangle x="332" y="324" width="140" height="139" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-52" value="tag_uuid&lt;div&gt;status int(1) def(0)&lt;/div&gt;&lt;div&gt;description (varchar)&lt;/div&gt;&lt;div&gt;type {enum:[&quot;staf&quot;, &quot;equipment&quot;, &quot;contractor&quot;] }&lt;/div&gt;&lt;div&gt;Timestamps&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-51">
+          <mxGeometry y="26" width="140" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-55" value="job_staf" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="443" y="351" width="77" height="26" as="geometry">
+            <mxRectangle x="476" y="371" width="202" height="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-56" value="vender_job_id (vender_job TAB) FK&lt;div&gt;staf_id (user TAB)FK&lt;/div&gt;&lt;div&gt;start_time (timestamp)&lt;/div&gt;&lt;div&gt;staf_role (varchar)&lt;/div&gt;&lt;div&gt;end_time (tiestamps)&lt;/div&gt;&lt;div&gt;staff_start_time (timestamps)&lt;/div&gt;&lt;div&gt;token (varchar)&lt;/div&gt;&lt;div&gt;isaccepted (tinyint 4) def(1)&lt;/div&gt;&lt;div&gt;reason (varchar)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-55">
+          <mxGeometry y="26" width="202" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-59" value="job_equipment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="575" y="353" width="114" height="26" as="geometry">
+            <mxRectangle x="626" y="362" width="218" height="137" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-60" value="vendor_job_id (vender_job TAB) FK&lt;div&gt;equipment_id (equipment TAB) FK&lt;/div&gt;&lt;div&gt;status (tinyint 4) def(1)&lt;/div&gt;&lt;div&gt;start_tiem (timestamps)&lt;/div&gt;&lt;div&gt;end_time (timestamps)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-59">
+          <mxGeometry y="26" width="218" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-63" value="job_contractor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="487" y="443" width="111" height="26" as="geometry">
+            <mxRectangle x="487" y="443" width="201" height="149" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-64" value="vendor_job_id (vendor_job TAB) FK&lt;div&gt;contractor_id (user_TAB) FK&lt;/div&gt;&lt;div&gt;start_time (timestamps)&lt;/div&gt;&lt;div&gt;end_time (timestamps)&lt;/div&gt;&lt;div&gt;contractor_start_time (timestamps)&lt;/div&gt;&lt;div&gt;token (varchar)&lt;/div&gt;&lt;div&gt;isaccepting (tinyint 4) def 1&lt;/div&gt;&lt;div&gt;reason (varcahr)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-63">
+          <mxGeometry y="26" width="201" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-68" value="job_batches" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="677" y="429" width="100" height="26" as="geometry">
+            <mxRectangle x="677" y="429" width="140" height="163" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-69" value="name (Varchar)&lt;div&gt;total_jobs (int)&lt;/div&gt;&lt;div&gt;pending_jobs (int)&lt;/div&gt;&lt;div&gt;failed_job (int)&lt;/div&gt;&lt;div&gt;failed_job_ids (varchar)&lt;/div&gt;&lt;div&gt;options (varchar)&lt;/div&gt;&lt;div&gt;cancelled_at (int)&lt;/div&gt;&lt;div&gt;created_at (int)&lt;/div&gt;&lt;div&gt;finish_at (int)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-68">
+          <mxGeometry y="26" width="140" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-72" value="jobs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="345" y="441" width="57" height="26" as="geometry">
+            <mxRectangle x="267.5" y="459" width="140" height="126" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-73" value="queue (varchar)&lt;div&gt;payloads (varchar)&lt;/div&gt;&lt;div&gt;attempts (tinyint 3)&lt;/div&gt;&lt;div&gt;reserved_at (int)&lt;/div&gt;&lt;div&gt;available_at (int)&lt;/div&gt;&lt;div&gt;created_at (int)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-72">
+          <mxGeometry y="26" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-76" value="fcm_token" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="108" y="399" width="90" height="26" as="geometry">
+            <mxRectangle x="108" y="399" width="140" height="112" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-77" value="user_id (user TAB) FK&lt;div&gt;device_id (varchar)&lt;/div&gt;&lt;div&gt;device_type (varchar)&lt;/div&gt;&lt;div&gt;token (varchar)&lt;/div&gt;&lt;div&gt;Timestamp&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-76">
+          <mxGeometry y="26" width="140" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-80" value="failed_job" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="381" y="508" width="140" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-81" value="id (int)&lt;div&gt;uuid (varchar)&lt;/div&gt;&lt;div&gt;connection (varchar)&lt;/div&gt;&lt;div&gt;queue (varchar)&lt;/div&gt;&lt;div&gt;payload (varchar)&lt;/div&gt;&lt;div&gt;exception (varchar)&lt;/div&gt;&lt;div&gt;failed_at (timestamps)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-80">
+          <mxGeometry y="26" width="140" height="111" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
