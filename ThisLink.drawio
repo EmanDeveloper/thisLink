@@ -6,11 +6,11 @@
         <mxCell id="1" parent="0" />
         <mxCell id="ZSYq4ZnVDpGivRZ-uzch-1" value="USER" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
           <mxGeometry x="273" y="176" width="68" height="26" as="geometry">
-            <mxRectangle x="339" y="185" width="116" height="65" as="alternateBounds" />
+            <mxRectangle x="273" y="176" width="148" height="78" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-2" value="id&lt;div&gt;Vendor_id(FK)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-1">
-          <mxGeometry y="26" width="116" height="39" as="geometry" />
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-2" value="id&lt;div&gt;Vendor_id (userTAB) (FK)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-1">
+          <mxGeometry y="26" width="148" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ZSYq4ZnVDpGivRZ-uzch-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ZSYq4ZnVDpGivRZ-uzch-1">
           <mxGeometry relative="1" as="geometry">
@@ -77,6 +77,14 @@
         </mxCell>
         <mxCell id="ZSYq4ZnVDpGivRZ-uzch-28" value="id&lt;div&gt;vendor_id(userTab)FK&lt;/div&gt;&lt;div&gt;job_owner_id(userTAB)FK&lt;/div&gt;&lt;div&gt;customer_id (FK)&lt;/div&gt;&lt;div&gt;job_uni_id (varchar)&lt;/div&gt;&lt;div&gt;job_title(varchar)&lt;/div&gt;&lt;div&gt;job_description(varchar)&lt;/div&gt;&lt;div&gt;office_note(varchar)&lt;/div&gt;&lt;div&gt;staf_note(varchar)&lt;/div&gt;&lt;div&gt;customer_name(varchar)&lt;/div&gt;&lt;div&gt;number_of_staf (int)&lt;/div&gt;&lt;div&gt;assigned_staf (int)&lt;/div&gt;&lt;div&gt;assigned_equipment(int)&lt;/div&gt;&lt;div&gt;assigned_contract(int)&lt;/div&gt;&lt;div&gt;hours_booked (varchar)&lt;/div&gt;&lt;div&gt;start_date_time (Timestamp)&lt;/div&gt;&lt;div&gt;completed_at (timestamp)&lt;/div&gt;&lt;div&gt;address (varchar)&lt;/div&gt;&lt;div&gt;location (varchar)&lt;/div&gt;&lt;div&gt;secondary_loca (varchar)&lt;/div&gt;&lt;div&gt;secondary_address (varchar)&lt;/div&gt;&lt;div&gt;latitude (varchar)&lt;/div&gt;&lt;div&gt;longitude (varchar)&lt;/div&gt;&lt;div&gt;secondary_lattude (varchar)&lt;/div&gt;&lt;div&gt;secondary_longitude (varchar)&lt;/div&gt;&lt;div&gt;&amp;nbsp;repeate_days (varchar)&lt;/div&gt;&lt;div&gt;resource_description (varchar)&lt;/div&gt;&lt;div&gt;signatory_docum (varchar)&lt;/div&gt;&lt;div&gt;status (int)&lt;/div&gt;&lt;div&gt;isparent (int)&lt;/div&gt;&lt;div&gt;notes (varchar)&lt;/div&gt;&lt;div&gt;job_complete_photo (varchar)&lt;/div&gt;&lt;div&gt;activity (varchar)&lt;/div&gt;&lt;div&gt;staf_roles (varchar)&lt;/div&gt;&lt;div&gt;authrized_person (varchar)&lt;/div&gt;&lt;div&gt;Timestamps&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-27">
           <mxGeometry y="26" width="198" height="532" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-31" value="task" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="150" y="249" width="57" height="26" as="geometry">
+            <mxRectangle x="537" y="7" width="140" height="149" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSYq4ZnVDpGivRZ-uzch-32" value="id&lt;div&gt;vendor_id (userTAB) FK&lt;/div&gt;&lt;div&gt;title&lt;/div&gt;&lt;div&gt;description&lt;/div&gt;&lt;div&gt;priority&lt;/div&gt;&lt;div&gt;status (int)&lt;/div&gt;&lt;div&gt;due_date (timestamps)&lt;/div&gt;&lt;div&gt;Timestamps&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZSYq4ZnVDpGivRZ-uzch-31">
+          <mxGeometry y="26" width="140" height="123" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
